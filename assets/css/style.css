@@ -39,6 +39,7 @@ font-family: 'Roboto', sans-serif;
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
 }
+
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:14px;
@@ -382,7 +383,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*-------------------------------------
         6. Works 
 --------------------------------------*/
-.works{padding: 0 0 90px;}
+.works{padding:117px 0 95px ;}
 .works-content {margin-top: 73px;}
 
 .single-how-works{
