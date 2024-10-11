@@ -36,6 +36,9 @@
 
         <!--responsive.css-->
         <link rel="stylesheet" href="../assets/css/responsive.css">
+		<meta name="description" content="Listogo">
+		<meta name="keywords" content="Listogo">
+		<meta name="author" content="Jawad Boulmal">
 
 </head>
 <body>
@@ -48,20 +51,20 @@
 						<ul>
 							<li class="select-opt">
 								<select name="language" id="language">
-									<option value="default">EN</option>
-									<option value="French">FR</option>
-									<option value="Arabic">AB</option>
+									<option aria-label="En" value="default">EN</option>
+									<option aria-label="Fr" value="French">FR</option>
+									<option aria-label="AB" value="Arabic">AB</option>
 								</select>
 							</li>
 							<li class="select-opt">
 								<select name="currency" id="currency">
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="mad">MAD</option>
+									<option aria-label="usd" value="usd">USD</option>
+									<option aria-label="usd" value="euro">Euro</option>
+									<option aria-label="usd" value="mad">MAD</option>
 								</select>
 							</li>
 							<li class="select-opt">
-								<a href="#"><span class="lnr lnr-magnifier"></span></a>
+								<a aria-label="Search" href="#"><span class="lnr lnr-magnifier"></span></a>
 							</li>
 						</ul>
 					</div>
@@ -96,7 +99,7 @@
 
 			            <!-- Start Header Navigation -->
 			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                <button aria-label="NavBar" type="button" role="none" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i class="fa fa-bars"></i>
 			                </button>
 			                <a class="navbar-brand" href="index.html">listo<span>go</span></a>
@@ -143,7 +146,7 @@
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+								<button aria-label="NavBar" role="none" class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
@@ -157,7 +160,7 @@
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+								<button aria-label="NavBar" role="none" class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
@@ -171,7 +174,7 @@
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+								<button aria-label="NavBar" role="none" class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
@@ -216,10 +219,10 @@
 						<div class="col-sm-7">
 							<div class="footer-social">
 								<span><i class="fa fa-phone"> +212 (222) 777 8888</i></span>
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-google-plus"></i></a>
+								<a aria-label="Facebook" href="#"><i class="fa fa-facebook"></i></a>	
+								<a aria-label="twitter" href="#"><i class="fa fa-twitter"></i></a>
+								<a aria-label="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a aria-label="google" href="#"><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -240,27 +243,22 @@
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
 		<script src="../assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
+
+		<!--slick.min.js-->
+		<script src="../assets/js/slick.min.js"></script>
 		<!--bootstrap.min.js-->
         <script src="../assets/js/bootstrap.min.js"></script>
+
+
 		
 		<!-- bootsnav js -->
 		<script src="../assets/js/bootsnav.js"></script>
-
-        <!--feather.min.js-->
-        <script  src="../assets/js/feather.min.js"></script>
 
         <!-- counter js -->
 		<script src="../assets/js/jquery.counterup.min.js"></script>
 		<script src="../assets/js/waypoints.min.js"></script>
 
-        <!--slick.min.js-->
-        <script src="../assets/js/slick.min.js"></script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      
 		     
         <!--Custom JS-->
         <script src="../assets/js/custom.js"></script>
